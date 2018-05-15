@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
@@ -8,6 +9,9 @@
       "dom",
       "es2015"
     ],
+    "paths": {
+      "@my/lib": [ "dist/libs" ]
+    },
     "module": "es2015",
     "moduleResolution": "node",
     "sourceMap": true,

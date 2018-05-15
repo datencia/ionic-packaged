@@ -12,6 +12,9 @@
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
+  "config": {
+    "ionic_webpack": "./config/webpack.config.js"
+  },
   "dependencies": {
     "@angular/animations": "5.2.10",
     "@angular/common": "5.2.10",
@@ -36,7 +39,8 @@
     "@ionic/app-scripts": "3.1.9",
     "ng-packagr": "2.4.4",
     "rimraf": "2.6.2",
-    "typescript": "~2.6.2"
+    "typescript": "~2.6.2",
+    "webpack-merge": "4.1.2"
   },
   "description": "An Ionic project"
 }
