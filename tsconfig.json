@@ -17,6 +17,7 @@
     "src/**/*.ts"
   ],
   "exclude": [
+    ".ng_build",
     "node_modules",
     "src/**/*.spec.ts",
     "src/**/__tests__/*.ts"
