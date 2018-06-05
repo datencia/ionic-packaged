@@ -8,6 +8,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { MyLibModule } from '@my/lib';
+
 @NgModule({
     declarations: [
         MyApp,
@@ -16,6 +18,7 @@ import { HomePage } from '../pages/home/home';
     imports: [
         BrowserModule,
         IonicModule.forRoot(MyApp),
+        MyLibModule.forRoot(),
     ],
     bootstrap: [IonicApp],
     entryComponents: [
