@@ -5,6 +5,8 @@ import { IonicModule } from 'ionic-angular';
 import { FlashCardComponent } from './components/flash-card/flash-card.component';
 import { IntervalService } from './services/interval.service';
 import { ChartAtPipe } from './pipes/chart-at.pipe';
+import { AboutPage } from './pages/about/about.page';
+import { ContactPage } from './pages/contact/contact.page';
 
 @NgModule({
     imports: [
@@ -14,10 +16,18 @@ import { ChartAtPipe } from './pipes/chart-at.pipe';
     declarations: [
         FlashCardComponent,
         ChartAtPipe,
+        AboutPage,
+        ContactPage,
+    ],
+    entryComponents: [
+        AboutPage,
+        ContactPage,
     ],
     exports: [
         FlashCardComponent,
         ChartAtPipe,
+        AboutPage,
+        ContactPage,
     ]
 })
 export class MyLibModule {
