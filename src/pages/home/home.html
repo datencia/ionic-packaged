@@ -7,8 +7,17 @@
 </ion-header>
 
 <ion-content padding>
-    <flash-card>
-        <div class="flash-card-front">FLASH CARDS</div>
-        <div class="flash-card-back">ARE COOL!</div>
-    </flash-card>
+    <h2>Welcome to Ionic!</h2>
+    <p>
+        This is a demo project using the components packaged in the <code>@my/lib</code> library.
+    </p>
+    <ion-item>
+        Counter: {{  value$ | async }}
+    </ion-item>
+    <ion-item>
+        <flash-card>
+            <div class="flash-card-front">FLASH CARDS</div>
+            <div class="flash-card-back">ARE COOL!</div>
+        </flash-card>
+    </ion-item>
 </ion-content>
