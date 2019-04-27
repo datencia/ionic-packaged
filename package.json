@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.3",
-    "ng-packagr": "2.4.4",
+    "ng-packagr": "3.0.6",
     "rimraf": "2.6.2",
     "typescript": "~2.6.2",
     "webpack-merge": "4.1.2"
